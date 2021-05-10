@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Barlow;
+    src: url("fonts/Barlow-Regular.otf");
+}
+
+body {
+    display: flex;
+    font-family: 'Barlow', sans-serif;
+    justify-content: center;
+    background-color: #EFF6FF;
+    padding: 3%;
+    color: #2A4A5C;
+}
+
+main {
+    background-color: white;
+    display: flex;
+    width: 75%;
+    flex-flow: row wrap;
+    
+    justify-content: center;
+    
+}
+
+section {
+    flex: 1;
+}
+
+section:nth-of-type(1) {
+    flex: 1.3;
+}
+
+.buttons-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 380px;
+}
+
+.image {
+    background: url(img/bg.jpg) no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    padding-top: 75px;
+}
+
+h2 {
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+img {
+    width: 100px;
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 30px;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.facebook-btn {
+    background: #255A9B url("img/facebook.svg") no-repeat 10px 50%;
+    background-size: 15px;
+    
+}
+
+.linkedin-btn {
+    background: #0076B6 url("img/linkedin.svg") no-repeat 10px 50%;
+    background-size: 15px;
+}
+
+.account-btn {
+    background: #3698FB;
+    margin-bottom: 140px;
+}
+
+.email-and-tel {
+    width: 173px;
+    margin-right: 5px;
+}
+
+.checkboxes {
+    margin-left: 30px;
+}
+
+.text {
+    margin-left: 50px;
+}
+
+.checkbox-description {
+    width: 200px;
+    font-weight: lighter;
+    font-size: 12px;
+    color: gray;
+    box-shadow: 0px 0px 5px -1px gray;
+    padding: 5px;
+    margin: 10px;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.or {
+    text-align: center;
+    margin-top: 50px;
+    width: 370px;
+}
+
+.terms-of-use {
+    margin: 50px 0 50px 0;
+}
+
+  
