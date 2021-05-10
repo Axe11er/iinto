@@ -39,10 +39,6 @@ section:nth-of-type(1) {
     width: 380px;
 }
 
-.buttons-container p {
-    font-size: 10px;
-}
-
 .image {
     background: url(img/bg.jpg) no-repeat;
     background-size: 100%;
@@ -139,6 +135,7 @@ img {
     text-align: center;
     margin-top: 50px;
     width: 370px;
+    font-size: 10px;
 }
 
 .terms-of-use {
