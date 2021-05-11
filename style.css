@@ -10,7 +10,9 @@ body {
     background-color: #EFF6FF;
     padding: 3%;
     color: #2A4A5C;
+    display: flex;
     flex-flow: row wrap;
+    justify-content: center;    
 }
 
 main {
@@ -18,8 +20,7 @@ main {
     display: flex;
     width: 75%;
     flex-flow: row wrap;    
-    justify-content: center;
-    
+    justify-content: center;    
 }
 
 section {
