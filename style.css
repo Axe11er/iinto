@@ -1,12 +1,12 @@
 @font-face {
-    font-family: Barlow;
-    src: url("fonts/Barlow-Regular.otf");
+    font-family: "Barlow";
+    src:
+        local("Barlow-Regular"),         
+        url("fonts/Barlow-Regular.otf") format("opentype");
 }
 
 body {
-    display: flex;
     font-family: 'Barlow', sans-serif;
-    justify-content: center;
     background-color: #EFF6FF;
     padding: 3%;
     color: #2A4A5C;
@@ -17,8 +17,7 @@ main {
     background-color: white;
     display: flex;
     width: 75%;
-    flex-flow: row wrap;
-    
+    flex-flow: row wrap;    
     justify-content: center;
     
 }
