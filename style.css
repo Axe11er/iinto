@@ -24,6 +24,9 @@ main {
 
 section {
     flex: 1;
+    flex-flow: row wrap;
+    min-width: 500px;
+    min-height: 500px;
 }
 
 section:nth-of-type(1) {
