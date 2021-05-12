@@ -18,13 +18,16 @@
             <h1>Get iinto it today</h1>
             <p><span class="text-1">There is no charge or obligation upon registration.</span></p>
             <form action="#" method="POST">
-            <div class="buttons-container">
-                <input type="submit" name="facebook" value="Register with Facebook" class="buttons facebook-btn">
-                <input type="submit" name="linkedin" value="Register with LinkedIn" class="buttons linkedin-btn">
-                <div class="break"></div>
-                <div class="or">OR</div>
-            </div>
-                <input type="email" class="email-and-tel" placeholder="Email" value="gus.goodwin@gmail.com">
+                <div class="buttons-container">
+                    <input type="submit" name="facebook" value="Register with Facebook" class="buttons facebook-btn">
+                    <input type="submit" name="linkedin" value="Register with LinkedIn" class="buttons linkedin-btn">
+                    <div class="break"></div>
+                    <div class="or">OR</div>
+                </div>
+                <input type="email" class="email-and-tel" placeholder="Email" list="emails">
+                <datalist id="emails">
+                    <option value="gus.goodwin@gmail.com"></option>
+                </datalist>
                 <input type="tel" class="email-and-tel" placeholder="Phone">
 
                 <h2>What type of investor are you?</h2>
@@ -42,7 +45,8 @@
                     </p>
                 </div>
                 <label>
-                    <input type="checkbox" name="terms" id="" class="terms-of-use"> <span class="text-3">I agree to the terms and receiving notifications from iinto
+                    <input type="checkbox" name="terms" id="" class="terms-of-use"> <span class="text-3">I agree to the
+                        terms and receiving notifications from iinto
                         <a href="#">View full terms</a></span></label>
                 <input type="submit" name="create-account" value="Create Account" class="buttons account-btn">
             </form>
