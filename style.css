@@ -42,9 +42,13 @@ section:nth-of-type(1) {
     width: 380px;
 }
 
-.image {
+.image-section {
     background: url(img/bg.jpg) no-repeat;
     background-size: cover;
+}
+
+.text-section {
+    margin-left: 50px;
 }
 
 h1 {
@@ -118,10 +122,6 @@ img {
 
 .tabs {
     margin-left: 30px;
-}
-
-.text {
-    margin-left: 50px;
 }
 
 .checkbox-description {
