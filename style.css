@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Barlow";
     src:
-        local("Barlow-Regular"),         
+        local("Barlow-Regular"),
         url("fonts/Barlow-Regular.otf") format("opentype");
 }
 
@@ -11,15 +11,15 @@ body {
     padding: 3%;
     color: #2A4A5C;
     display: flex;
-    justify-content: center;    
+    justify-content: center;
 }
 
 main {
     background-color: white;
     display: flex;
     width: 75%;
-    flex-flow: row wrap;    
-    justify-content: center;    
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 section {
@@ -88,12 +88,12 @@ img {
     color: white;
     text-decoration: none;
     font-size: 12px;
+    border: none;
 }
 
 .facebook-btn {
     background: #255A9B url("img/facebook.svg") no-repeat 10px 50%;
     background-size: 15px;
-    
 }
 
 .linkedin-btn {
@@ -109,9 +109,14 @@ img {
 .email-and-tel {
     width: 173px;
     margin-right: 5px;
+    font-size: 11px;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    height: 30px;
+    border: 1px solid lightgray;
 }
 
-.checkboxes {
+.tabs {
     margin-left: 30px;
 }
 
@@ -141,7 +146,8 @@ img {
     font-size: 10px;
 }
 
-.or::after, .or::before {
+.or::after,
+.or::before {
     content: "";
     display: inline-block;
     height: 1px;
@@ -154,4 +160,15 @@ img {
     margin: 50px 0 50px 0;
 }
 
-  
+input[type=submit]:hover {
+    box-shadow: 0px 0px 2px rgba(104, 105, 105, 0.966);
+    cursor: pointer;
+}
+
+.email-and-tel:hover {
+    border-left: 1px solid #3698FB;
+}
+
+.email-and-tel:focus {
+    outline: none;
+}
