@@ -144,7 +144,6 @@ h2 {
     height: 10px;
     left: 0px;
     top: 0px;
-
 }
 
 .description {
@@ -220,14 +219,12 @@ input[type="submit"]:hover {
         align-items: center;
         justify-content: center;
         flex-flow: column wrap;
-        width: 100%;
-        
+        width: 100%;        
     }
 
     .image-section {    
         flex: 2;
-        width: 100%;
-        
+        width: 100%;        
     }
 
     .buttons-container {
