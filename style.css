@@ -64,6 +64,7 @@ h2 {
 .text-3 {
     color: #7B8A92;
     font-size: 12px;
+    margin-left: 5px;
 }
 
 .buttons-container {
@@ -102,6 +103,8 @@ h2 {
 .account-btn {
     background: #3698FB;
     margin-bottom: 140px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .email-and-tel {
@@ -185,7 +188,7 @@ h2 {
 }
 
 .terms-of-use {
-    margin: 125px 0 50px 0;
+    margin-top: 125px;
 }
 
 input[type="submit"]:hover {
@@ -206,7 +209,7 @@ input[type="submit"]:hover {
         width: 100vw;
         display: flex;
         flex-flow: column wrap;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
     }
     
@@ -215,6 +218,7 @@ input[type="submit"]:hover {
         flex: 1;
         display: flex;        
         align-items: center;
+        justify-content: center;
         flex-flow: column wrap;
         width: 100%;
         
@@ -234,7 +238,7 @@ input[type="submit"]:hover {
         width: 100%;
     }
 
-    .buttons {
+    .facebook-btn, .linkedin-btn {
         margin: 0;
     }
 
@@ -257,7 +261,7 @@ input[type="submit"]:hover {
     }
 
     .description {
-        left: 150px;
+        left: 120px;
         top: 0px;
     }
 
