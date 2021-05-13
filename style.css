@@ -123,6 +123,7 @@ h2 {
     flex-flow: row nowrap;
     justify-content: left;
     width: 500px;
+    margin-bottom: 125px;
 }
 
 .tab {
@@ -184,10 +185,6 @@ h2 {
     width: 75px;
     background-color: rgba(000, 000, 000, 0.1);
     vertical-align: middle;
-}
-
-.terms-of-use {
-    margin-top: 125px;
 }
 
 input[type="submit"]:hover {
